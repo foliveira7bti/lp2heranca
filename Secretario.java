@@ -1,15 +1,11 @@
-package aulaheranca;
+package lp2heranca;
 
-public class Secretario extends Funcionario{
+public abstract class Secretario extends Funcionario{
 	public String atributoDeSecretario;
 
 	public String getAtributoDeSecretario() {
 		return atributoDeSecretario;
 	}
 	
-	public double getBonificacao()
-	{
-		return this.salario * 0.03;
-	}
 
 }

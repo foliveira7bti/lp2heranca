@@ -1,6 +1,6 @@
-package aulaheranca;
+package lp2heranca;
 
-public class Diretor extends Funcionario{
+public class Diretor extends Gerente{
 	private String atributoDeDiretor;
 
 	public String getAtributoDeDiretor() {

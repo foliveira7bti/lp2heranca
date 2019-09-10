@@ -1,4 +1,4 @@
-package aulaheranca;
+package lp2heranca;
 
 public class Gerente extends Funcionario{
 	private int senha;

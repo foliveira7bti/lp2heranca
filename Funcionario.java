@@ -1,14 +1,11 @@
-package aulaheranca;
+package lp2heranca;
 
-public class Funcionario {
+public abstract class Funcionario {
 	protected String nome;
 	protected String CPF;
 	protected double salario;
 	
-	public double getBonificacao()
-	{
-		return this.salario * 0.10;
-	}
+	public abstract double getBonificacao();
 	
 
 	public void setSalario(int i) {
